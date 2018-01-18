@@ -1,0 +1,520 @@
+@import "var"
+
+body 
+    background-color: $white
+    font-family: 'Roboto', sans-serif
+    font-weight: 300
+    color: $black
+
+    
+header 
+    width: 100%
+    height: 80px
+    display: flex
+    justify-content: center
+    
+    .header__wrap
+        max-width: 1180px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        box-sizing: border-box
+        width: 100%
+
+.main
+    position: relative
+        
+.header__nav 
+    display: flex
+    align-items: center
+    justify-content: space-around
+    
+    a 
+        margin-right: 30px
+        font-size: 15px
+        font-weight: 500
+        letter-spacing: 2px
+        
+        /*&:first-child 
+            margin-right: 15px
+            padding: 0*/
+        
+.profile__link 
+    display: flex
+    align-items: center
+    
+    a 
+        margin-right: 20px
+        display: flex
+        align-items: center
+        justify-content: center
+        font-size: 14px
+        letter-spacing: 1px
+        font-weight: 400
+        
+        span 
+            width: 14px
+            height: 14px
+            background-image: url(../img/info.jpg)
+            margin-left: 10px
+    
+    .credits__val 
+        color: $blue
+        font-weight: 500
+        font-size: 14px
+        letter-spacing: 1px
+        
+    .profile__info 
+        margin-left: 20px
+        display: flex
+        align-items: center
+        justify-content: center
+        position: relative
+        
+        &:hover
+            .profile__menu
+                display: flex
+        
+        .profile__menu
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            background: $whiteD;
+            bottom: -100px;
+            z-index: 10;
+            border-radius: 5px;
+            border: 1px solid $gray;
+            
+            a 
+                padding: 10px 23px;
+                border-bottom: 1px solid $gray
+                margin-right: 0
+                
+                &:hover
+                    background: $blue
+                    color: $whiteD
+        
+        span
+            +arrow
+            margin-left: 15px
+
+.top__photos
+    display: flex
+    width: 100%
+    background-color: $whiteD
+    height: 180px
+    justify-content: center
+    align-items: center
+    .top__photos-wrap
+        display: flex
+        justify-content: space-between
+        max-width: 1180px
+        box-sizing: border-box
+        align-items: center
+        
+        a
+            margin-right: 10px
+            &:last-child
+                margin-right: 0
+    
+.find__wrap
+    display: flex
+    flex-direction: column
+    width: 100%
+    justify-content: center
+    align-items: center
+    margin-top: 30px
+    
+    h1
+        margin-bottom: 50px
+        font-size: 30px
+        font-weight: 400
+        
+    .select__wrap
+        position: relative
+        .arrow
+            +arrow
+            width: 12px
+            height: 7px
+            position: absolute
+            right: 10px
+            top: 10px
+            z-index: -1
+    
+    select
+        appearance: none
+        outline: none
+        border: none
+        border-bottom: 1px solid $gray
+        width: 175px
+        position: relative  
+        background: transparent
+        
+    #city 
+        width: 280px
+    .open__search
+        display: flex
+        justify-content: space-between;
+        align-items: center
+        width: 100%
+        margin-bottom: 40px
+        letter-spacing: .5px
+        p
+            display: flex
+            justify-content: center
+            align-items: center
+            font-weight: 400
+            .arrow
+                +arrow
+                margin-left: 10px
+        .line
+            width: 42%
+            height: 1px
+            background-color: $gray
+            
+
+.search__field 
+    display: flex
+    width: 100%
+    max-width: 1180px
+    box-sizing: border-box
+    justify-content: space-between
+    margin-bottom: 50px
+    align-items: center
+    
+    .input__wrap
+        position: relative
+        .delete
+            width: 12px
+            height: 12px
+            background-image: url(../img/x.png)
+            background-size: contain
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            z-index: 2
+            cursor: pointer
+        
+    
+    select, #city
+        font-size: 17px
+        letter-spacing: 1px
+        padding-bottom: 9px
+    
+    #city 
+        border-bottom: 1px solid $gray
+        
+    .age__wrap 
+        display: flex
+        justify-content: space-between
+        
+        p
+            margin-right: 15px
+    
+    .btn
+        padding: 15px 55px
+        background: linear-gradient(to right, #376cf8 , #4e92ff)
+        color: $white
+        font-size: 14px
+        text-transform: uppercase
+        border: none
+        border-radius: 5px
+        letter-spacing: 4px
+        font-weight: 400
+        cursor: pointer
+        +transition
+        &:hover
+            background: linear-gradient(to right, #376cf8 , #376cf8)
+            +transition
+        
+.profiles__section
+    background: $whiteD
+    padding: 40px 0 60px
+    box-sizing: border-box
+    display: flex
+    justify-content: center
+    
+    .profiles__wrap
+        width: 100%;
+        max-width: 1180px;
+    
+    .sort__profiles
+        width: 400px
+        display: flex
+        margin-bottom: 30px
+        
+        p
+            width: 33.3%
+            text-align: center
+            border: 1px solid $blue
+            color: $blue
+            padding: 6px 0
+            cursor: pointer
+            font-weight: 500
+            letter-spacing: 1px
+            box-sizing: border-box
+            
+            &:first-child
+                border-radius: 5px
+                border-top-right-radius: 0
+                border-bottom-right-radius: 0
+            
+            &:nth-child(2)
+                border-right: none
+                border-left: none
+            
+            &:last-child
+                border-radius: 5px
+                border-top-left-radius: 0
+                border-bottom-left-radius: 0
+            
+        p.active
+            background: $blue
+            color: $whiteD
+            
+.member__profiles-wrap  
+    width: 100%
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    
+.member__profile
+    width: 22.9%
+    margin-bottom: 27px
+    
+.profile-pic__wrap
+    position: relative
+    
+    img
+        width: 100%
+    
+    .photo-icon__wrap
+        padding: 6px 10px
+        background: rgba(0, 0, 0, .5)
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        position: absolute
+        left: 15px
+        top: 20px
+        color: $white
+        cursor: pointer
+        +transition
+        &:hover
+            +transition
+            background: rgba(0, 0, 0, .6)
+        
+        .camera
+            width: 21px
+            height: 17px
+            background-image: url(../img/camera.png)
+            background-size: contain
+        .amount 
+            font-size: 14px
+            margin-left: 5px
+    .top-icon
+        padding: 7.5px 10px
+        background: $pink
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        position: absolute
+        right: 20px
+        top: 20px
+        color: $white
+        text-transform: uppercase
+        cursor: default
+        font-size: 15px
+        font-weight: 400
+        
+    .action-button__wrap
+        height: 40px
+        width: 100%
+        display: flex
+        position: absolute
+        bottom: 0
+        z-index: 2
+        
+        button
+            display: flex
+            justify-content: center
+            align-items: center
+            color: $white
+            font-size: 14px
+            border: none
+            width: 50%
+            cursor: pointer
+            box-sizing: border-box
+            letter-spacing: 1px
+            padding: 0
+        
+        .fav
+            background: linear-gradient(to right, #376cf8 , #3d76fa)
+            span
+                background-image: url(../img/fav.png)
+                width: 19px
+                height: 18px
+                background-size: contain
+                margin-right: 5px
+                background-repeat: no-repeat
+         
+        .fav.active
+            span
+                background-image: url(../img/favyellow.png)
+            
+        .msg
+            background: linear-gradient(to right, #4380fc , #4e92ff)
+            border-left: .5px solid #7aa2fc
+            span
+                background-image: url(../img/msg.png)
+                width: 20px
+                height: 15px
+                background-size: contain
+                margin-right: 5px
+                
+.member__profile-info
+    background: $white
+    box-shadow: 0px 3px 6px 1px rgba(200,200,200,0.65);
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+    padding: 15px 20px
+    display: flex
+    flex-direction: column
+
+.name-age__wrap
+    display: flex
+    align-items: center
+    font-size: 18px
+    
+    .online
+        width: 10px
+        height: 10px
+        border-radius: 10px
+        background: $green
+        margin-left: 7px
+    
+    div
+        display: flex;
+        color: $blue;
+        font-weight: 500;
+        
+        .age 
+            margin-left: 10px
+            
+.live__place
+    margin-top: 7px
+    font-size: 14px
+    font-weight: 400
+    
+footer 
+    padding: 40px 0
+    box-sizing: border-box
+    background: $white
+    color: $darkgray
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    .footer__wrap
+        max-width: 1180px
+        width: 100%
+    
+    .copyright 
+        font-size: 14px   
+        margin-bottom: 15px
+        font-family: 'Times New Roman'
+        
+        &:last-child
+            margin-bottom: 0
+    
+.footer__link
+    display: flex
+    margin-bottom: 34px
+    
+    a
+        margin-right: 50px
+        color: $darkgray
+        font-weight: 500
+        letter-spacing: 1px
+        
+        &:last-child
+            margin-right: 0
+
+.pagination__wrap
+    display: flex
+    justify-content: center
+    width: 100%
+    
+    .pagination
+        width: 310px
+        background: $white
+        color: $gray
+        height: 40px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        
+        a 
+            padding: 7px 11px
+            border-radius: 5px
+            font-weight: 400
+            &:first-child
+                background-image: url(../img/left.png)
+                background-size: contain
+                background-repeat: no-repeat
+                width: 12px
+                height: 17px
+                padding: 0px
+                box-sizing: border-box
+            &:last-child
+                background-image: url(../img/right.png)
+                background-size: contain
+                background-repeat: no-repeat
+                width: 12px
+                height: 17px
+                padding: 0px
+                box-sizing: border-box
+    
+        a.active
+            background: $blue
+            color: $white
+            
+.responsive__nav 
+    display: none
+    box-shadow: 4px 0px 5px -3px rgba(0,0,0,0.75);
+    transition: all .6s ease;
+    
+    a 
+        padding: 20px 41px
+        font-size: 21px
+        left: -100%
+        border-left: 4px solid $white
+        +transition
+        box-sizing: border-box
+        
+        &:hover
+            border-left: 4px solid $blue
+            background: $gray
+        
+    a.active
+        border-left: 4px solid $blue
+        background: $gray
+        
+.hamburger
+    position: absolute
+    left: 2%
+    display: none
+    
+#up
+    width: 50px
+    height: 50px
+    background-image: url(../img/round.png)
+    background-size: contain
+    position: fixed
+    right: 50px
+    bottom: 50px
+    border: 1px solid $gray
+    border-radius: 25px
+    cursor: pointer

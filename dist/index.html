@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.range.css">
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/responsive.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="header__wrap">
+           <div class="hamburger">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            <div class="header__nav">
+                <a href="#"><img src="img/logo.jpg" alt=""></a>
+                <div class="nav">
+                    <a href="#">Поиск</a>
+                    <a href="#">Мои переписки</a>
+                    <a href="#">Избранное</a>
+                    <a href="#">Кто смотрел</a>
+                </div>
+            </div>
+            <div class="profile__link">
+                <a href="#">Премиум <span></span></a>
+                <p class="credits__val">100 кредитов</p>
+                <div class="profile__info">
+                    <img src="img/profile.jpg" alt="">
+                    <span></span>
+                    <div class="profile__menu">
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <section class="main">
+        <div class="responsive__nav">
+            <a class="active" href="#">Поиск</a>
+            <a href="#">Мои переписки</a>
+            <a href="#">Избранное</a>
+            <a href="#">Кто смотрел</a>
+            <a href="#">Профиль</a>
+        </div>
+       
+        <div class="top__photos">
+            <div class="top__photos-wrap">
+                <a href="#"><img src="img/girl8.jpg" alt=""></a>
+                <a href="#"><img src="img/girl7.jpg" alt=""></a>
+                <a href="#"><img src="img/girl6.jpg" alt=""></a>
+                <a href="#"><img src="img/girl5.jpg" alt=""></a>
+                <a href="#"><img src="img/girl4.jpg" alt=""></a>
+                <a href="#"><img src="img/girl3.jpg" alt=""></a>
+                <a href="#"><img src="img/girl2.jpg" alt=""></a>
+                <a href="#"><img src="img/girl1.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="find__wrap">
+            <h1>Я ищу</h1>
+            <form class="search__field">
+                <div class="select__wrap">
+                    <select name="sex" id="sex">
+                        <option value="Девушку">Девушку</option>
+                        <option value="Мужчину">Мужчину</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+                
+                <div class="input__wrap">
+                    <label for="city"></label>
+                    <input type="text" id="city" list="city_list" placeholder="Город" value="Санкт-Петербург">
+                    <datalist id="city_list">
+                      <option value="Санкт-Петербург">Санкт-Петербург</option>
+                      <option value="Москва">Москва</option>
+                      <option value="Киев">Киев</option>
+                      <option value="Одесса">Одесса</option>
+                      <!-- и остальные -->
+                    </datalist>
+                    <div class="delete"></div>
+                </div>
+                <div class="age__wrap">
+                    <p>Возраст</p>
+                    <input type="hidden" class="slider-input" value="18, 23" />
+                </div>
+                
+                <button type="submit" class="btn">найти</button>
+            </form>
+            <div class="open__search">
+               <span class="line line__left"></span>
+                <p>
+                    Расширенный поиск <span class="arrow"></span>
+                </p>
+                <span class="line line__right"></span>
+            </div>
+        </div>
+        <div class="profiles__section">
+            <div class="profiles__wrap">
+                <div class="sort__profiles">
+                    <p>Онлайн</p>
+                    <p class="active">Новые</p>
+                    <p>Популярные</p>
+                </div>
+                <div  class="member__profiles-wrap">
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card1.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">12</span>
+                            </div>
+                            <span class="top-icon">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Кристиночка</p>,<p class="age">28</p>
+                                </div>
+                                <span class="online"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Санкт-Петербург</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card2.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">3</span>
+                            </div>
+                            <span class="top-icon">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Диана</p>,<p class="age">20</p>
+                                </div>
+                                <span class="online"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Самара</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card3.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">145</span>
+                            </div>
+                            <span class="top-icon">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Аня</p>,<p class="age">18</p>
+                                </div>
+                                <span class="online"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Ростов-на-Дону</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card4.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">17</span>
+                            </div>
+                            <span class="top-icon hidden">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Анжелика</p>,<p class="age">27</p>
+                                </div>
+                                <span class="online hidden"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Чебоксары</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card5.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">12</span>
+                            </div>
+                            <span class="top-icon hidden">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Лариса</p>,<p class="age">32</p>
+                                </div>
+                                <span class="online"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Москва</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card6.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">3</span>
+                            </div>
+                            <span class="top-icon hidden">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Настя</p>,<p class="age">21</p>
+                                </div>
+                                <span class="online hidden"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Зеленоград</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card7.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">4</span>
+                            </div>
+                            <span class="top-icon hidden">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Евгения</p>,<p class="age">30</p>
+                                </div>
+                                <span class="online hidden"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Ростов-на-Дону</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                    <div  class="member__profile">
+                        <div class="profile-pic__wrap">
+                            <img src="img/card8.jpg" alt="">
+                            <div class="photo-icon__wrap">
+                                <span class="camera"></span>
+                                <span class="amount">28</span>
+                            </div>
+                            <span class="top-icon hidden">Топ</span>
+                            <div class="action-button__wrap">
+                                <button class="fav"><span></span>Избранное</button>
+                                <button class="msg"><span></span>Написать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="member__profile-info">
+                            <div class="name-age__wrap">
+                                <div>
+                                    <p class="name">Ольга</p>,<p class="age">25</p>
+                                </div>
+                                <span class="online hidden"></span>
+                            </div>
+                            <p class="live__place"><span class="profile__city">Казань</span>, <span class="profile__country">Россия</span></p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="pagination__wrap">
+                    <div class="pagination">
+                        <a href="#" class="pagination__arrow" > </a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#" class="pagination__arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+    </section>
+    <footer>
+        <div class="footer__wrap">
+            <div class="footer__link">
+                <a href="#">Правила</a>
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">О проекте</a>
+                <a href="#">Обратная связь</a>
+            </div>
+            <p class="copyright">©«KIKI». Лучший on-line сервис по поиску спонсоров и содержанок, 2015-2017</p>
+            <p class="copyright">Администрация не несёт ответственности за размещённые анкеты. Вся информация на сайте предоставлена посетителями.</p>
+        </div>
+    </footer>
+    
+<script src="js/libs.min.js"></script> 
+<script src="js/jquery.range-min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

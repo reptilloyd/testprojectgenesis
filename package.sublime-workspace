@@ -1,0 +1,249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style"
+			],
+			[
+				"C",
+				"className"
+			],
+			[
+				"nu",
+				"numberTwo"
+			],
+			[
+				"num",
+				"numberOne"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/1/AppData/Local/Temp/Temp1_wp.zip/wp-config.php",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob2/responsive.css",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob2/index.php",
+		"/D/OpenServer/domains/wpfolder/wp-config.php",
+		"/D/Мои Документы/Desktop/Authorize.auz",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob/footer.php",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob/header.php",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob2/header.php",
+		"/D/OpenServer/userdata/temp/wpfolder.sql",
+		"/D/Мои Документы/Downloads/wpfolder.sql.gz",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob/functions.php",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/mob/index.php",
+		"/D/OpenServer/domains/wpfolder/wp-content/themes/twentyfifteen/sidebar.php",
+		"/D/Мои Документы/Desktop/WAPPEX redesign/index.html",
+		"/D/Мои Документы/Desktop/Учеба/js/задачи/задачи.js",
+		"/D/Мои Документы/Desktop/Useful/slider audi/slider.css",
+		"/D/Мои Документы/Desktop/Untitled-2.html",
+		"/D/Мои Документы/Downloads/Desktop/mail.js",
+		"/D/Мои Документы/Desktop/Useful/slider audi/slider.html",
+		"/D/Мои Документы/Desktop/Useful/scrollbutton.html",
+		"/C/WebServers/home/wptest.ru/www/wp-content/themes/mob/footer.php",
+		"/C/WebServers/home/wptest.ru/www/wp-content/themes/mob/header.php",
+		"/D/Мои Документы/Desktop/WAPPEX redesign/css/style.css",
+		"/D/test/owlcarousel/docs/demos/basic.html",
+		"/D/test/send.php",
+		"/C/Users/1/AppData/Local/Temp/Temp1_00145.zip/PHP + AJAX скрипт отправки форм на E-mail/feedback/index.php",
+		"/C/Users/1/AppData/Local/Temp/Temp1_00145.zip/PHP + AJAX скрипт отправки форм на E-mail/index.html",
+		"/D/Мои Документы/Desktop/Customizable-Countdown-Timer-Plugin-For-jQuery-countdown/README.md",
+		"/D/Мои Документы/Desktop/Customizable-Countdown-Timer-Plugin-For-jQuery-countdown/doc/jquery.countdown.js.html",
+		"/D/Мои Документы/Desktop/test.html",
+		"/C/Users/1/header.php",
+		"/C/Users/1/functions.php",
+		"/Z/home/wptest.ru/www/wp-content/themes/mob/style.css",
+		"/C/Users/1/footer.php",
+		"/C/WebServers/home/wptest.ru/www/wp-content/themes/mob/js/script.js",
+		"/C/WebServers/home/wptest.ru/www/wp-content/themes/mob/style.css",
+		"/D/Мои Документы/Desktop/Useful/sticky header/header.css",
+		"/D/Мои Документы/Desktop/Useful/sticky header/header.js",
+		"/C/Users/1/default-filters.php",
+		"/C/WebServers/home/wptest.ru/www/wp-config.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"localhost/wordpress",
+			"localhost",
+			"\t\t\t\t\t\t\t\t\t",
+			"#links li",
+			"map",
+			"/wordpress/",
+			" /",
+			"http://localhost:81/wordpress",
+			"http://localhost:81"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
