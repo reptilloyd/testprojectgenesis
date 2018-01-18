@@ -40,6 +40,7 @@
     .find__wrap .open__search .line {
         width: 37%;
     }
+    
 }
 
 @media screen and ( max-width: 915px ) {

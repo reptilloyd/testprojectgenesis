@@ -50,3 +50,14 @@ $('.pagination a:not(.pagination__arrow)').click(function(){
   $('.pagination a').removeClass('active');
   $(this).addClass('active');
 })
+
+$(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            if ($('#up').is(':hidden')) {
+                $('#up').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#up').stop(true, false).fadeOut('fast'); }
+    });
+    $('#up').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
